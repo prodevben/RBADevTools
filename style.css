@@ -1,0 +1,230 @@
+.screen{
+    height: 5rem;
+    width:100%;
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    pointer-events: none;
+    border-radius: 20px;
+    border: none;
+}
+.btnOne{
+    height: 3rem;
+    width: 100%;
+    background: transparent;
+    border: 2px solid #ff1515;
+    border-radius: 12px;
+}
+
+.btnTwo{
+    height: 3rem;
+    width: 100%;
+    border: 2px solid #ff1515;
+    border-radius: 12px;
+    background: transparent;
+    background: #ff1515;
+    color: white;
+}
+
+.btnThree{
+    height: 3rem;
+    width: 100%;
+    border: 2px solid #ff1515;
+    border-radius: 12px;
+    background: transparent;
+    background: #ff1515;
+    color: white;
+}
+.txtStyle{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.btnFour{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: transparent;
+}
+.btnFive{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: transparent;
+}
+.btnSix{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: transparent;
+}
+.btnSeven{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: transparent;
+}
+.txtSec1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+}
+.btnEight{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: transparent;
+    border: 2px solid #ff1515;
+}
+.btnNine{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: transparent;
+    border: 2px solid #ff1515;
+}
+.btnTen{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+    background: transparent;
+    border: 2px solid #ff1515;
+}
+.txtSec2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ff1515;
+    margin-top: -0.1rem;
+}
+.txtSec2:hover{
+    text-decoration: none;
+    color: #ff1515;
+}
+.btnEleven{
+    width: 50%;
+    margin-left: 2rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: transparent;
+}
+
+@media (max-width: 768px){
+    .btnEleven{
+        margin-top: 1rem;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .btnEight{
+        
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .btnNine{
+       
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .btnTen{
+       
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .btnFour{
+       
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .btnFive{
+       
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .btnSix{
+       
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .btnSeven{
+       
+        width: 40%;
+    }
+}
+@media (max-width: 768px){
+    .screen{
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 768px){
+    .ntimp{
+        margin-top: 2rem!important;
+
+    }
+}
+@media (max-width: 768px){
+    .btnOne{
+        width: 100%!important;
+    }
+}
+@media (max-width: 768px){
+    .btnTwo{
+        margin-top: 1rem!important;
+    }
+}
+@media (max-width: 768px){
+    .btnThree{
+        margin-top: 1rem!important;
+    }
+}
+@media (max-width: 768px){
+    .btn1{
+        
+        margin-left: -1.75rem;
+    }
+}
+@media (max-width: 768px){
+    .btn2{
+        
+        margin-left: -1.75rem;
+    }
+}
+@media (max-width: 768px){
+    .btn3{
+        
+        margin-left: -1.75rem;
+    }
+}
+@media (max-width: 768px){
+    .secTwo{
+        
+        margin-left: -1rem;
+        margin-top: 1rem!important;
+    }
+}
