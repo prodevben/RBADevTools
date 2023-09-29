@@ -207,7 +207,7 @@
     .btn1{
         
            margin-left: -13.5rem;
-    width: 23rem;
+    width: 30rem;
         
     }
 }
@@ -215,14 +215,14 @@
     .btn2{
         
         margin-left: -13.5rem;
-        width: 23rem;
+        width: 30rem;
     }
 }
 @media (max-width: 768px){
     .btn3{
         
         margin-left: -13.5rem;
-        width: 23rem;
+        width: 30rem;
     }
 }
 @media (max-width: 768px){
