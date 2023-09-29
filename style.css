@@ -1,9 +1,9 @@
 .screen{
-    height: 5rem;
+    height: 6rem;
     width:100%;
     background-color: black;
     color: white;
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-size: 2.5rem;
     pointer-events: none;
     border-radius: 20px;
@@ -42,14 +42,14 @@
     font-weight: 100;
 }
 .btnFour{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     border-radius: 12px;
     background: transparent;
 }
 .btnFive{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
@@ -57,7 +57,7 @@
     background: transparent;
 }
 .btnSix{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
@@ -65,7 +65,7 @@
     background: transparent;
 }
 .btnSeven{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
@@ -79,7 +79,7 @@
     margin-top: 0.3rem;
 }
 .btnEight{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
@@ -88,7 +88,7 @@
     border: 2px solid #ff1515;
 }
 .btnNine{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
@@ -97,7 +97,7 @@
     border: 2px solid #ff1515;
 }
 .btnTen{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
@@ -118,7 +118,7 @@
     color: #ff1515;
 }
 .btnEleven{
-    width: 50%;
+    width: 90%;
     margin-left: 2rem;
     height: 3rem;
     border-radius: 12px;
@@ -206,19 +206,23 @@
 @media (max-width: 768px){
     .btn1{
         
-        margin-left: -1.75rem;
+           margin-left: -13.5rem;
+    width: 23rem;
+        
     }
 }
 @media (max-width: 768px){
     .btn2{
         
-        margin-left: -1.75rem;
+        margin-left: -13.5rem;
+        width: 23rem;
     }
 }
 @media (max-width: 768px){
     .btn3{
         
-        margin-left: -1.75rem;
+        margin-left: -13.5rem;
+        width: 23rem;
     }
 }
 @media (max-width: 768px){
@@ -226,5 +230,16 @@
         
         margin-left: -1rem;
         margin-top: 1rem!important;
+    }
+}
+.form-group{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+@media (max-width: 768px){
+    .secThree{
+        
+        
+        margin-top: 2rem!important;
     }
 }
