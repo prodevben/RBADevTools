@@ -1,3 +1,6 @@
+body{
+    background-color: #e0e0e0;
+}
 .screen{
     height: 6rem;
     width:100%;
@@ -9,6 +12,7 @@
     pointer-events: none;
     border-radius: 20px;
     border: none;
+
 }
 .btnOne{
     height: 3rem;
@@ -48,11 +52,40 @@
     height: 3rem;
     margin-top: 1em;
     border-radius: 12px;
-    background: transparent;
-    border: 2px solid;
+    border: none;
     font-size: 1.3rem;
     font-weight: 500;
 }
+ .btnFour{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #3f3f3f, #000000);
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #27272766;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
 .btnFive{
     width: 90%;
     margin-left: 2rem;
@@ -84,13 +117,103 @@
     margin-top: 0.3rem;
 }
 .btnEight{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #ff6060, #ff0000);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #cf000066;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+   .btnNine{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #ff6060, #ff0000);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #cf000066;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+   .btnTen{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #ff6060, #ff0000);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #cf000066;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+.btnEight{
     width: 90%;
     margin-left: 2rem;
     height: 3rem;
     margin-top: 1rem;
     border-radius: 12px;
-    background: transparent;
-    border: 2px solid #ff1515;
+    color : #fff;
+    align-items: center;
 }
 .btnNine{
     width: 90%;
@@ -98,8 +221,6 @@
     height: 3rem;
     margin-top: 1rem;
     border-radius: 12px;
-    background: transparent;
-    border: 2px solid #ff1515;
 }
 .btnTen{
     width: 90%;
@@ -107,20 +228,18 @@
     height: 3rem;
     margin-top: 1rem;
     border-radius: 12px;
-    background: transparent;
-    border: 2px solid #ff1515;
 }
 .txtSec2{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
     font-weight: 500;
     text-decoration: none;
-    color: #ff1515;
+    color: #151515;
     margin-top: -0.1rem;
 }
 .txtSec2:hover{
     text-decoration: none;
-    color: #ff1515;
+    color: #151515;
 }
 .btnEleven{
     width: 90%;
@@ -246,7 +365,6 @@
     }
 }
 .Secc{
-    
     border: 1px solid transparent;
     background-color: rgb(240, 238, 234);
     border-radius: 1em;
