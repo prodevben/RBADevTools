@@ -4,7 +4,8 @@
     background-color: black;
     color: white;
     margin-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding: 1em;
     pointer-events: none;
     border-radius: 20px;
     border: none;
@@ -45,9 +46,12 @@
     width: 90%;
     margin-left: 2rem;
     height: 3rem;
+    margin-top: 1em;
     border-radius: 12px;
     background: transparent;
-    border:2px solid black;
+    border: 2px solid;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 .btnFive{
     width: 90%;
@@ -56,7 +60,6 @@
     margin-top: 1rem;
     border-radius: 12px;
     background: transparent;
-    border:2px solid black;
 }
 .btnSix{
     width: 90%;
@@ -65,7 +68,6 @@
     margin-top: 1rem;
     border-radius: 12px;
     background: transparent;
-    border:2px solid black;
 }
 .btnSeven{
     width: 90%;
@@ -74,7 +76,6 @@
     margin-top: 1rem;
     border-radius: 12px;
     background: transparent;
-    border:2px solid black;
 }
 .txtSec1{
     font-family:Arial, Helvetica, sans-serif;
@@ -236,14 +237,18 @@
         margin-top: 1rem!important;
     }
 }
-.form-group{
-    border: 1px solid black;
-    border-radius: 10px;
-}
+
 @media (max-width: 768px){
     .secThree{
         
         
         margin-top: 2rem!important;
     }
+}
+.Secc{
+    
+    border: 1px solid transparent;
+    background-color: rgb(240, 238, 234);
+    border-radius: 1em;
+    font-size: 1.05em;
 }
